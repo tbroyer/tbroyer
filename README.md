@@ -14,6 +14,7 @@ I also contribute to other projects, which you'll find in my contribution activi
 * [`net.ltgt.flyway`](https://github.com/tbroyer/gradle-flyway-plugin/) to get [Flyway](https://github.com/flyway/flyway/) tasks like `flywayMigrate`; lighterweight than the official plugin, with easier control (and isolation) on its dependencies.
 * [`net.ltgt.jooq` and `net.ltgt.jooq-kotlin`](https://github.com/tbroyer/gradle-jooq-plugin/) to run the [jOOQ code generator](https://www.jooq.org/doc/3.20/manual/code-generation/) against your database, in order to commit the generated files; lighterweight than the official plugin, with easier control (and isolation) on its dependencies; works well with the `net.ltgt.flyway` plugin.
 * [Gradle IncAP Helper](https://github.com/tbroyer/gradle-incap-helper/): an annotation processor to help declare your own annotation processor's support for Gradle's incremental annotation processing.
+* [Gradle Kotlin Accessors Generator](https://github.com/tbroyer/gradle-kotlin-accessors-generator/): an annotation processor to generate Kotlin DSL type-safe accessors for your Gradle plugin's extensions (for those cases where Gradle doesn't generate ones).
 
 ## JavaScript and Web development
 
